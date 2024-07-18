@@ -1,11 +1,6 @@
-import React, { useContext, useState } from "react";
-import { Context } from "../../index.js";
+import React, { useState } from "react";
 import axios from "axios";
 import { Link, Navigate } from "react-router-dom";
-import { FaPencilAlt, FaRegUser } from "react-icons/fa";
-import { FaPhoneFlip } from "react-icons/fa6";
-import { MdOutlineMailOutline } from "react-icons/md";
-import { RiLock2Fill } from "react-icons/ri";
 import toast from "react-hot-toast";
 
 const Register = () => {
@@ -15,7 +10,6 @@ const Register = () => {
   const [name, setName] = useState("");
   const [role, setRole] = useState("");
   const [redirectToLogin, setRedirectToLogin] = useState(false);
-  const { isAuthorized, setAuthorized, user, setUser } = useContext(Context);
 
   const handleRegister = async (e) => {
     e.preventDefault();

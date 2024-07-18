@@ -9,7 +9,6 @@ import {
   FaMapMarkerAlt,
   FaDollarSign,
   FaRegMoneyBillAlt,
-  FaAlignLeft,
 } from "react-icons/fa";
 
 const PostJob = () => {

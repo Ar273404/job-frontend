@@ -48,7 +48,7 @@ const Navbar = () => {
       <header className="flex items-center shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50">
         <div className="flex items-center justify-between w-full">
           {/* Logo */}
-          <a className="w-16 h-full" href="javascript:void(0)">
+          <a className="w-16 h-full" href="/">
             <img
               src="https://freepngimg.com/thumb/jobs/8-2-jobs-png-picture-thumb.png"
               alt="logo"
@@ -284,7 +284,7 @@ const Navbar = () => {
               <ul class="mt-3">
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="/"
                     class="text-black hover:text-blue-600 text-sm flex items-center hover:bg-blue-50 rounded px-4 py-3 transition-all">
                     <ImProfile className="text-gray-500 mr-2" fontSize={20} />
                     <span>Profile</span>

@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+
 
 const Footer = () => {
 
@@ -7,11 +7,11 @@ const Footer = () => {
     <footer class="font-sans tracking-wide bg-[#213343] px-8 py-12">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
         <div>
-          <a href='javascript:void(0)'><img src="https://www.pngitem.com/pimgs/m/47-474532_jobs-png-file-job-seeker-images-png-transparent.png" alt="logo" class='w-44' /></a>
+          <a href='/'><img src="https://www.pngitem.com/pimgs/m/47-474532_jobs-png-file-job-seeker-images-png-transparent.png" alt="logo" class='w-44' /></a>
 
           <ul class="mt-10 flex space-x-5">
             <li>
-              <a href='javascript:void(0)'>
+              <a href='/'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="fill-yellow-400 hover:fill-white w-7 h-7"
                   viewBox="0 0 24 24">
                   <path fill-rule="evenodd"
@@ -21,7 +21,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href='javascript:void(0)'>
+              <a href='/'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                   class="fill-yellow-400 hover:fill-white w-7 h-7" viewBox="0 0 24 24">
                   <path fill-rule="evenodd"
@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href='javascript:void(0)'>
+              <a href='/'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                   class="fill-yellow-400 hover:fill-white w-7 h-7" viewBox="0 0 24 24">
                   <path
@@ -40,7 +40,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href='javascript:void(0)'>
+              <a href='/'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                   class="fill-yellow-400 hover:fill-white w-7 h-7" viewBox="0 0 24 24">
                   <path
@@ -62,19 +62,19 @@ const Footer = () => {
           </h4>
           <ul class="mt-6 space-y-5">
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Web Development</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Web Development</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Pricing</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Pricing</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Support</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Support</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Client Portal</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Client Portal</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Resources</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Resources</a>
             </li>
           </ul>
         </div>
@@ -90,16 +90,16 @@ const Footer = () => {
           </h4>
           <ul class="space-y-5 mt-6 max-sm:hidden">
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Hubspot</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Hubspot</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Integration Services</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Integration Services</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Marketing Glossar</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Marketing Glossar</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>UIPath</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>UIPath</a>
             </li>
           </ul>
         </div>
@@ -116,19 +116,19 @@ const Footer = () => {
 
           <ul class="space-y-5 mt-6 max-sm:hidden">
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>About us</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>About us</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Careers</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Careers</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Blog</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Blog</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Portfolio</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Portfolio</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Events</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Events</a>
             </li>
           </ul>
         </div>
@@ -145,19 +145,19 @@ const Footer = () => {
 
           <ul class="space-y-5 mt-6 max-sm:hidden">
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>FAQ</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>FAQ</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Partners</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Partners</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Sitemap</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Sitemap</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>Contact</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>Contact</a>
             </li>
             <li>
-              <a href='javascript:void(0)' class='hover:text-yellow-400 text-gray-300 text-sm'>News</a>
+              <a href='/' class='hover:text-yellow-400 text-gray-300 text-sm'>News</a>
             </li>
           </ul>
         </div>
@@ -168,13 +168,13 @@ const Footer = () => {
       <div class="flex flex-wrap max-md:flex-col gap-4">
         <ul class="md:flex md:space-x-6 max-md:space-y-2">
           <li>
-            <a href='javascript:void(0)' class='hover:text-yellow-400 text-green-400 text-sm'>Terms of Service</a>
+            <a href='/' class='hover:text-yellow-400 text-green-400 text-sm'>Terms of Service</a>
           </li>
           <li>
-            <a href='javascript:void(0)' class='hover:text-yellow-400 text-green-400 text-sm'>Privacy Policy</a>
+            <a href='/' class='hover:text-yellow-400 text-green-400 text-sm'>Privacy Policy</a>
           </li>
           <li>
-            <a href='javascript:void(0)' class='hover:text-yellow-400 text-green-400 text-sm'>Security</a>
+            <a href='/' class='hover:text-yellow-400 text-green-400 text-sm'>Security</a>
           </li>
         </ul>
 
